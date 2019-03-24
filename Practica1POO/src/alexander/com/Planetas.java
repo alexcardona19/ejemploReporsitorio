@@ -4,6 +4,15 @@ import javax.swing.JOptionPane;
 
 public class Planetas {
 
+	private String nombrePlaneta;
+	
+	public String getNombrePlaneta() {
+		return nombrePlaneta;
+	}
+	public void setNombrePlaneta(String nombrePlaneta) {
+		this.nombrePlaneta = nombrePlaneta;
+	}
+
 	double pesoPlaneta;
 	public void Marte(double peso) {
 		pesoPlaneta = Math.round(peso/9.81)*3.711;
